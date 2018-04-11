@@ -1,0 +1,33 @@
+
+/* iPad in landscape */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)and (-webkit-min-device-pixel-ratio: 2) and (orientation : landscape) {}
+
+/* iPad in portrait */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)and (-webkit-min-device-pixel-ratio: 2) and (orientation : portrait) {
+  .scrolle{
+    width: 90%;
+    height: 65vh;
+  }
+}
+
+  /* iPad pro in landscape */
+  @media only screen and (min-device-width : 1024px) and (max-device-width : 1366px)and (-webkit-min-device-pixel-ratio: 2) and (orientation : landscape) {
+    .child_section{
+      width: 70%;
+      height: 60%;
+    }
+  }
+
+  /* iPad pro in portrait */
+  @media only screen and (min-device-width : 1024px) and (max-device-width : 1366px)and (-webkit-min-device-pixel-ratio: 2) and (orientation : portrait) {
+    .child_section{
+      width: 80%;
+      height: 60%;
+    }
+    .section-wrap{
+      height: 80vh;
+    }
+    footer{
+      height: 30vh;
+    }
+  }
